@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install -y locales locales-all
+#apt-get install -y locales locales-all
 localedef -i en_US -f UTF-8 en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
